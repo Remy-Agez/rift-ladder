@@ -125,7 +125,7 @@ class DataLoaderTest {
 
         assertTrue(champions.errors().isEmpty());
         assertTrue(players.errors().isEmpty());
-        assertEquals(12, catalog.size());
-        assertEquals(12, players.items().size());
+        assertEquals(13, catalog.size());
+        assertEquals(13, players.items().size());
     }
 }
